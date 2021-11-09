@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    android:gravity="center_vertical"
+    >
+    <com.ebanx.swipebtn.SwipeButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:inner_text="Swipe to Unlock"
+        app:inner_text_bottom_padding="15dp"
+        app:inner_text_top_padding="15dp"
+        app:button_image_disabled="@drawable/ic_baseline_lock"
+        app:button_image_enabled="@drawable/ic_baseline_lock_open"
+        app:button_top_padding="15dp"
+        app:button_bottom_padding="15dp"
+        app:button_right_padding="15dp"
+        app:button_left_padding="15dp"
+        android:layout_margin="20dp"
+        android:id="@+id/swipeBtn"
+        app:button_background="@drawable/button_design"
+        app:inner_text_background="@drawable/text_design"
+        app:inner_text_size="20sp"
+        />
+
+
+</LinearLayout>
